@@ -98,4 +98,7 @@ public class Fraction {
         
         return new Fraction(numerator, commonDenomitaor);
     }
-}
+public static Fraction mult(Fraction f1, Fraction f2)
+    {
+        return new Fraction(f1.numerator*f2.numerator, f1.denominator*f2.denominator);
+    }}
